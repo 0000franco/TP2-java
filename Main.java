@@ -56,7 +56,8 @@ public class Main extends JFrame {
         int stock = Integer.parseInt(txtStock.getText()); // Convierte el texto del stock a int.
 
         Producto producto = new Producto(nombre, precio, stock); // Crea un producto con los datos ingresados.
-        txtResultado.setText(producto.mostrarInformacion()); // Muestra la información del producto en el área de texto.
+        txtResultado.setText("Producto registrado correctamente:\n\n"
+               + producto.mostrarInformacion()); // Muestra la información del producto en el área de texto.
     }
 
     // Método principal que inicia la aplicación.
