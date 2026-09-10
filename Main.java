@@ -1,5 +1,5 @@
-import javax.swing.*; // Importa los componentes gráficos de Swing para crear la ventana y sus controles.
-import java.awt.*; // Importa clases de AWT para layouts y utilidades gráficas.
+import java.awt.*; // Importa los componentes gráficos de Swing para crear la ventana y sus controles.
+import javax.swing.*; // Importa clases de AWT para layouts y utilidades gráficas.
 
 // La clase Main representa la ventana principal de la aplicación.
 public class Main extends JFrame {
@@ -13,7 +13,7 @@ public class Main extends JFrame {
 
     // Constructor de la ventana principal.
     public Main() {
-        setTitle("Sistema de Productos"); // Establece el título de la ventana.
+        setTitle("Gestión de Productos"); // Establece el título de la ventana.
         setSize(400, 400); // Define el ancho y alto de la ventana.
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Cierra la aplicación al cerrar la ventana.*/
         setLocationRelativeTo(null); // Centra la ventana en la pantalla.
