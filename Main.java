@@ -22,6 +22,7 @@ public class Main extends JFrame {
         JLabel lblNombre = new JLabel("Nombre:");
         JLabel lblPrecio = new JLabel("Precio:");
         JLabel lblStock = new JLabel("Stock:");
+        jLabel lblalumno =  new JLabel("Alumno: Barrera Franco"); // Etiqueta que muestra el nombre del alumno. 
 
         // Se crean los campos donde el usuario ingresa nombre, precio y stock.
         txtNombre = new JTextField();
@@ -43,6 +44,8 @@ public class Main extends JFrame {
         add(btnRegistrar); // Agrega el botón registrar.
         add(new JLabel("Resultado:")); // Etiqueta para mostrar el resultado.
         add(new JScrollPane(txtResultado)); // Agrega un scroll para ver el contenido del texto.
+        add(lblalumno); // Agrega la etiqueta del alumno al final de la ventana.
+        add(new JLabel("")); // Agrega un espacio vacío para mantener el formato.
 
         // Cuando se presiona el botón, ejecuta el método registrarProducto.
         btnRegistrar.addActionListener(e -> registrarProducto());
